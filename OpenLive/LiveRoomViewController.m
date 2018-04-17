@@ -295,7 +295,7 @@
         user.uid = uid;
         user.rect = CGRectMake(PublishWidth / 2 + 5, 5, PublishWidth / 2 - 10, PublishHeight - 10);
         user.alpha = 1.0;
-        user.zOrder = 0;
+        user.zOrder = 1;
         user.audioChannel = 0;
         
         self.users[0].rect = CGRectMake(5, 5, PublishWidth / 2 - 10, PublishHeight - 10);
